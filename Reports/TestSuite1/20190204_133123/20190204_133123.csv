@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,,,2019-02-04 13:31:29,2019-02-04 13:31:47,17.637s,FAILED
+,,,,,,
+Test Cases/GetBankDetails,,,2019-02-04 13:31:29,2019-02-04 13:31:34,4.202s,PASSED
+"sendRequest(findTestObject(""SOAP/getBank""))",,,2019-02-04 13:31:30,2019-02-04 13:31:34,3.794s,PASSED
+,,,,,,
+Test Cases/ListUsersTest,,,2019-02-04 13:31:34,2019-02-04 13:31:37,3.139s,FAILED
+"sendRequest(findTestObject(""UserRestService/ListUsers""))",,,2019-02-04 13:31:34,2019-02-04 13:31:35,1.556s,PASSED
+"response = sendRequestAndVerify(findTestObject(""UserRestService/ListUsers""))",,,2019-02-04 13:31:35,2019-02-04 13:31:37,1.299s,PASSED
+"verifyElementPropertyValue(response, ""data[1].first_name"", ""Charles"")",,,2019-02-04 13:31:37,2019-02-04 13:31:37,0.021s,PASSED
+"verifyElementPropertyValue(response, ""data[2].id"", ""6"")",,,2019-02-04 13:31:37,2019-02-04 13:31:37,0.022s,PASSED
+"verifyElementsCount(response, ""data"", 2)",,,2019-02-04 13:31:37,2019-02-04 13:31:37,0.035s,FAILED
+"verifyResponseStatusCodeInRange(response, 100, 200)",,,2019-02-04 13:31:37,2019-02-04 13:31:37,0.021s,FAILED
+,,,,,,
+Test Cases/TestHTTPMethods,,,2019-02-04 13:31:37,2019-02-04 13:31:44,6.721s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/ListUsers""))",,,2019-02-04 13:31:37,2019-02-04 13:31:39,2.178s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/DeleteUser""))",,,2019-02-04 13:31:39,2019-02-04 13:31:41,1.316s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/UpdateUser""))",,,2019-02-04 13:31:41,2019-02-04 13:31:43,1.966s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/CreateUser""))",,,2019-02-04 13:31:43,2019-02-04 13:31:44,0.982s,PASSED
+,,,,,,
+Test Cases/CalculatorTests/Addition,,,2019-02-04 13:31:44,2019-02-04 13:31:47,3.202s,PASSED
+"response = sendRequest(findTestObject(""CalculatorSoapService/Addition""))",,,2019-02-04 13:31:44,2019-02-04 13:31:45,1.442s,PASSED
+"response = sendRequestAndVerify(findTestObject(""CalculatorSoapService/Addition""))",,,2019-02-04 13:31:45,2019-02-04 13:31:47,1.555s,PASSED
+"verifyElementPropertyValue(response, ""AddResponse.AddResult"", ""6"")",,,2019-02-04 13:31:47,2019-02-04 13:31:47,0.034s,PASSED

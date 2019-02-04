@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="4" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="4" timestamp="2019-02-04 12:29:42" hostname="Admin - DESKTOP-5OSIUCA.mammamia.local" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Admin\\Katalon Studio\\API Demo Project\\Reports\\New Test Suite\\20190204_122935"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\Katalon Studio\\API Demo Project\\Reports\\New Test Suite\\20190204_122935\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - DESKTOP-5OSIUCA.mammamia.local"/>
+         <property name="hostAddress" value="192.168.12.155"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/GetBankDetails" classname="Test Cases/GetBankDetails" status="PASSED">
+         <system-out><![CDATA[2019-02-04 12:29:42 - [TEST_CASE][PASSED] - Test Cases/GetBankDetails: Test Cases/GetBankDetails
+
+2019-02-04 12:29:42 - [TEST_STEP][PASSED] - sendRequest(findTestObject("SOAP/getBank")): Send request successfully
+
+2019-02-04 12:29:46 - [MESSAGE][INFO] - HAR: C:\Users\Admin\Katalon Studio\API Demo Project\Reports\New Test Suite\20190204_122935\requests\main\0.har
+
+2019-02-04 12:29:46 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-04 12:29:42 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/GetBankDetails]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

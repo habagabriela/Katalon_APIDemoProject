@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-04T12:29:42</date>
+  <millis>1549276182034</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/New Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">New Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/New Test Suite</property>
+</record>
+<record>
+  <date>2019-02-04T12:29:42</date>
+  <millis>1549276182055</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Admin - DESKTOP-5OSIUCA.mammamia.local</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Admin - DESKTOP-5OSIUCA.mammamia.local</property>
+</record>
+<record>
+  <date>2019-02-04T12:29:42</date>
+  <millis>1549276182056</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-02-04T12:29:42</date>
+  <millis>1549276182057</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.12.155</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.12.155</property>
+</record>
+<record>
+  <date>2019-02-04T12:29:42</date>
+  <millis>1549276182058</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-02-04T12:29:42</date>
+  <millis>1549276182377</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/GetBankDetails</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/GetBankDetails</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/GetBankDetails</property>
+  <property name="source">C:\\Users\\Admin\\Katalon Studio\\API Demo Project\\Test Cases\\GetBankDetails.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-02-04T12:29:42</date>
+  <millis>1549276182839</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;SOAP/getBank\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-02-04T12:29:46</date>
+  <millis>1549276186535</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\Admin\\Katalon Studio\\API Demo Project\\Reports\\New Test Suite\\20190204_122935\\requests\\main\\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">5269530d-9d52-4c57-ada3-9f819a1f2278</property>
+</record>
+<record>
+  <date>2019-02-04T12:29:46</date>
+  <millis>1549276186658</millis>
+  <sequence>12</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-04T12:29:46</date>
+  <millis>1549276186658</millis>
+  <sequence>13</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;SOAP/getBank\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-04T12:29:46</date>
+  <millis>1549276186658</millis>
+  <sequence>14</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/GetBankDetails</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-02-04T12:29:46</date>
+  <millis>1549276186659</millis>
+  <sequence>15</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/GetBankDetails</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-02-04T12:29:46</date>
+  <millis>1549276186713</millis>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/New Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
